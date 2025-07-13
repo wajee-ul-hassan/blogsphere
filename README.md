@@ -1,91 +1,32 @@
-# 📝 BlogSphere
+![codingCity Banner](https://user-images.githubusercontent.com/89572340/209066044-1b6f61ef-cb18-47be-94d4-b442e5fc209a.png)
 
-**BlogSphere** is a personal blogging platform built with the **MERN Stack** (MongoDB, Express.js, React, Node.js) and **Redux Toolkit**. It includes a rich text editor for creating and managing blog posts, supports dark/light themes, and uses **SendInBlue** for email-based subscriptions, contact, and comments. Only admin login is allowed for managing content.
+# 👩🏽‍💻 CodingCity
 
----
+A MERN stack personal blogging application with rich text editor for writing blogs and only have admin login.
 
-## 🔧 Tech Stack
+## 💻 Tech Stack
 
-### Frontend
+**Frontend:**
 
-* React
-* React Router
-* Redux Toolkit
-* CSS
-* React Draft WYSIWYG Editor
+<img src="https://img.shields.io/badge/-React-orange?style=for-the-badge&logo=react" alt="React"/>   <img src="https://img.shields.io/badge/-React%20Router-success?style=for-the-badge&logo=reactrouter" alt="React Router"/>   <img src="https://img.shields.io/badge/-Redux%20Toolkit-informational?style=for-the-badge&logo=redux" alt="Redux Toolkit"/>   <img src="https://img.shields.io/badge/-css-990099?style=for-the-badge&logo=CSS3" alt="CSS"/>
+<img src="https://img.shields.io/badge/-react draft wysiwy-fae248?style=for-the-badge&logo=react-draft-wysiwy" alt="react-draft-wysiwy"/>  
 
-### Backend
+**Backendend:**
 
-* Node.js
-* Express.js
-* MongoDB
+<img src="https://img.shields.io/badge/-Node.js-faf75a?style=for-the-badge&logo=node.js" alt="Node.js"/>   <img src="https://img.shields.io/badge/-express.js-282929?style=for-the-badge&logo=express" alt="Express.js"/>   <img src="https://img.shields.io/badge/-mongodb-f1a7f2?style=for-the-badge&logo=mongodb" alt="MongoDb"/>
 
-### Email Service
+**Email Service:**
 
-* SendInBlue (for subscription, contact, and comments)
+<img src="https://img.shields.io/badge/-SendInBlue-2497f0?style=for-the-badge&logo=SendInBlue" alt="SendInBlue"/> 
 
----
+## 📝 Features
 
-## ✨ Features
+- Rich Text Editor for writing and editing blogs.
+- Subscription to website through SendInBlue double opt-in.
+- Dark and Light themes.
+- Contact and Comments with SendInBlue.
+- Only Admin login.
 
-* Rich Text Editor for writing and editing blog posts
-* Admin-only login for secure content management
-* Dark and Light theme support
-* Newsletter subscription with double opt-in via SendInBlue
-* Contact and comment forms integrated with SendInBlue
 
----
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/blogsphere.git
-cd blogsphere
-```
-
-### 2. Install Dependencies
-
-```bash
-# Backend dependencies
-npm install
-
-# Move to frontend
-cd frontend
-npm install
-```
-
-### 3. Configure Environment Variables
-
-Create a `.env` file in the root and add the following:
-
-```env
-NODE_ENV=development
-PORT=5000
-MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-SENDINBLUE_API_KEY=your_sendinblue_api_key
-```
-
----
-
-## 📦 Scripts
-
-### Backend
-
-```bash
-npm run dev     # Run backend in development
-npm start       # Run backend in production
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm start       # Start React frontend
-```
-
----
 
 
